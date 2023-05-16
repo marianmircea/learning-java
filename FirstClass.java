@@ -1,5 +1,9 @@
 public class FirstClass {
-    int x = 5; // attribute "x"
+    int x; // attribute "x"
+
+    public FirstClass(){ // This is how the Constructor is created - must have the same name as the class
+        x = 6;
+    }
 
     public static void main(String[] args) {
         FirstClass first_object = new FirstClass();
